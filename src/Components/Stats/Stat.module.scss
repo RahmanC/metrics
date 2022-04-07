@@ -1,0 +1,46 @@
+@import '../../Variables/Variables.scss';
+.main {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+
+  .parent {
+    // position: relative;
+    display: flex;
+    align-items: flex-start;
+
+    .bullet {
+      // position: absolute;
+      // top: 20px;
+      // left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      background-color: $green;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .texts {
+      // display: flex;
+      // flex-direction: column;
+      // position: absolute;
+      // top: 0px;
+      // left: 25px;
+      // line-height: 28px;
+      margin: none;
+      padding: none;
+
+      .heading {
+        color: $textColor;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .average {
+        color: $grey;
+        font-size: 12px;
+      }
+    }
+  }
+}

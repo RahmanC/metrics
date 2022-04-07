@@ -1,0 +1,93 @@
+@import '../../Variables/Variables.scss';
+
+.chip {
+  background-color: $green;
+  border-radius: 12px;
+  padding: 0px 8px;
+  color: white;
+  font: bold 12px/13px Helvetica, Verdana, Tahoma;
+  height: 16px;
+  text-align: center;
+  min-width: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 150px;
+  position: relative;
+}
+
+.badge {
+  background-color: $blue;
+  border-radius: 50%;
+  padding: 2px;
+  height: 50px;
+  width: 50px;
+  margin-top: 12px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.badgeIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  border: 1px white solid;
+}
+
+.arrow {
+  width: 10px;
+  left: 0;
+  background-color: grey;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 150px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoHeader {
+  font-size: 18px;
+}
+
+.infoRecord {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.yesterday {
+  font-weight: 400;
+  font-size: 20px;
+  color: $black;
+}
+
+.lastFriday {
+  color: grey;
+  font-size: 20px;
+}
+
+.icon {
+  width: 16px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+}

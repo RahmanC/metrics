@@ -1,0 +1,47 @@
+@import '../../Variables/Variables.scss';
+
+.main {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+
+  .yellow {
+    height: 5px;
+    width: 40%;
+    background-color: $yellow;
+  }
+  .purple {
+    height: 5px;
+    width: 20%;
+    background-color: $purple;
+  }
+  .blue {
+    height: 5px;
+    width: 20%;
+    background-color: $blue;
+  }
+  .grey {
+    height: 5px;
+    width: 20%;
+    background-color: $grey;
+  }
+}
+
+.bar_desc {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+
+  .parent {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+    .bullet {
+      margin-right: 10px;
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

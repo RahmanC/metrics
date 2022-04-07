@@ -1,0 +1,23 @@
+@import '../Variables/Variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .main_container {
+    width: 60%;
+    font-family: $font;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+  }
+}
